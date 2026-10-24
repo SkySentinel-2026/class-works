@@ -25,3 +25,8 @@
 |彭冬梅|![彭冬梅的作品](Gallery/彭冬梅.png)|[查看代码](code/彭冬梅.py)|
 |张丞|![张丞的作品](Gallery/张丞.png)|[查看代码](code/张丞.py)|
 |张浩航|![张浩航的作品](Gallery/张浩航.png)|[查看代码](code/张浩航.py)|
+| 张超  | ![张超的作品](Gallery/张超.png) |[查看代码](code/张超.py)|
+| 张弛  | ![张弛的作品](Gallery/张弛.png) |[查看代码](code/张弛.py)|
+| 庞天依  | ![庞天依的作品](Gallery/庞天依.jpg) |[查看代码](code/庞天依.py)|
+| 王菁华  | ![王菁华的作品](Gallery/王菁华.jpg) |[查看代码](code/王菁华.py)|
+| 王艺帆  | ![王艺帆的作品](Gallery/王艺帆.png) |[查看代码](code/王艺帆.py)|

@@ -1,10 +1,20 @@
 import turtle
+import random
 t=turtle.Turtle()
 
-t.speed(7)
+t.speed(0)
 
 screen=turtle.Screen()      #sky
 screen.bgcolor("lightblue")
+
+t.color("white")
+t.hideturtle()
+t.penup()
+for i in range(60):             #star
+    x=random.randint(-500,500)
+    y=random.randint(0,500)
+    t.goto(x,y)
+    t.dot(random.randint(3,9))
 
 t.penup()
 t.goto(-500,-50)
@@ -19,6 +29,28 @@ for i in range(2):   #草地
 t.end_fill()
 
 t.penup()
+for i in range(150):            #grass
+    x=random.randint(-500,500)
+    y=random.randint(-500,-50)
+    t.goto(x,y)
+    t.setheading(90)
+    if(i%2==0):
+        t.color("dark green")
+    else:
+        t.color("green")
+    t.pendown()
+    t.forward(random.randint(6,14))
+    t.penup()
+
+t.setheading(0)     #复原
+
+for i in range(20):               #flower
+    x=random.randint(-500,500)
+    y=random.randint(-400,-70)  
+    t.goto(x,y)
+    t.color(random.choice(["red","blue","yellow","orange","pink"]))
+    t.dot(random.randint(8,9))         
+
 t.goto(-50,-50)
 t.pendown()
 t.color("black","firebrick")
