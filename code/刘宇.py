@@ -1,0 +1,47 @@
+import turtle
+
+t = turtle.Turtle()
+t.color("black")
+t.pensize(4)
+
+t.penup()
+t.goto(0, -100)
+t.pendown()
+t.fillcolor("red")
+t.begin_fill()
+t.circle(100)
+t.end_fill()
+
+t.penup()
+t.goto(-86.6, -50)
+t.pendown()
+t.begin_fill()
+t.goto(0, 100)
+t.goto(86.6, -50)
+t.goto(-86.6, -50)
+t.end_fill()
+
+t.penup()
+t.goto(86.6, 50)
+t.pendown()
+t.begin_fill()
+t.goto(0, -100)
+t.goto(-86.6, 50)
+t.goto(86.6, 50)
+t.end_fill()
+
+t.penup()
+t.goto(-86.6, -50)
+t.pendown()
+t.goto(0, 100)
+t.goto(86.6, -50)
+t.goto(-86.6, -50)
+
+t.penup()
+t.goto(86.6, 50)
+t.pendown()
+t.goto(0, -100)
+t.goto(-86.6, 50)
+t.goto(86.6, 50)
+
+turtle.done()
